@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E000] Syntax Warning: C:\Users\benve\Desktop\git\pc2022-code\src\main\scala\pc\utils\Time.scala:8:4 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m8 |[0m    [33mtry[0m{ (v, (java.lang.System.nanoTime-t0)) } [34m//finally println("Timed op (msec): "+(java.lang.System.nanoTime-t0)/1000000)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |    [33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |    A [33mtry[0m without [33mcatch[0m or [33mfinally[0m is equivalent to putting[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |    its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

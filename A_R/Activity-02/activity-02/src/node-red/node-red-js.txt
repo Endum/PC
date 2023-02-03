@@ -1,0 +1,29 @@
+function turnOn() {
+    if (lamp) {
+        return { payload: "nothing" };
+    } else {
+        return { payload: "on" };
+    }
+}
+
+function turnOff() {
+    if (lamp) {
+        return { payload: "off" };
+    } else {
+        return { payload: "nothing" };
+    }
+}
+
+var luminosity = +msg.payload["luminosity"];
+var lamp = msg.payload["state"] === "on";
+var detection = msg.payload["detection"] === "true";
+
+if(detection) {
+    if(luminosity < 0.2) {
+        return turnOn();
+    } else {
+        return turnOff();
+    }
+} else {
+    return turnOff();
+}

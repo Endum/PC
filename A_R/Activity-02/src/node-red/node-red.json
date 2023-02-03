@@ -1,0 +1,281 @@
+[
+    {
+        "id": "81c0345e4820cf71",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d101c30c66cac026",
+        "type": "read-property",
+        "z": "81c0345e4820cf71",
+        "name": "luminosity",
+        "topic": "luminosity",
+        "thing": "37614d8701cbe92f",
+        "property": "luminosity",
+        "uriVariables": "",
+        "interval": "1",
+        "observe": false,
+        "x": 80,
+        "y": 160,
+        "wires": [
+            [
+                "73eca42442474835"
+            ]
+        ]
+    },
+    {
+        "id": "3cc81a7f5952cf52",
+        "type": "read-property",
+        "z": "81c0345e4820cf71",
+        "name": "detection",
+        "topic": "detection",
+        "thing": "c4d46918806b6a7a",
+        "property": "detection",
+        "uriVariables": "",
+        "interval": "1",
+        "observe": false,
+        "x": 80,
+        "y": 320,
+        "wires": [
+            [
+                "73eca42442474835"
+            ]
+        ]
+    },
+    {
+        "id": "66c36a01c22ac7f9",
+        "type": "function",
+        "z": "81c0345e4820cf71",
+        "name": "agent",
+        "func": "function turnOn() {\n    if (lamp) {\n        return { payload: \"nothing\" };\n    } else {\n        return { payload: \"on\" };\n    }\n}\n\nfunction turnOff() {\n    if (lamp) {\n        return { payload: \"off\" };\n    } else {\n        return { payload: \"nothing\" };\n    }\n}\n\nvar luminosity = +msg.payload[\"luminosity\"];\nvar lamp = msg.payload[\"state\"] === \"on\";\nvar detection = msg.payload[\"detection\"] === \"true\";\n\nif(detection) {\n    if(luminosity < 0.2) {\n        return turnOn();\n    } else {\n        return turnOff();\n    }\n} else {\n    return turnOff();\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "98f5be5393978fa8",
+                "9d2cffcb481d9d1f"
+            ]
+        ]
+    },
+    {
+        "id": "98f5be5393978fa8",
+        "type": "switch",
+        "z": "81c0345e4820cf71",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "nothing",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            [
+                "66193985a1b563df",
+                "4b1e4d14293bd4a4"
+            ],
+            [
+                "cbddf5d1a45d12dd",
+                "4b1e4d14293bd4a4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "73eca42442474835",
+        "type": "join",
+        "z": "81c0345e4820cf71",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "66c36a01c22ac7f9",
+                "9b4ce26fabbdb369"
+            ]
+        ]
+    },
+    {
+        "id": "b13ac8b20f798416",
+        "type": "read-property",
+        "z": "81c0345e4820cf71",
+        "name": "lamp",
+        "topic": "lamp",
+        "thing": "05c363a5ea7f0c4d",
+        "property": "state",
+        "uriVariables": "",
+        "interval": "1",
+        "observe": false,
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "73eca42442474835"
+            ]
+        ]
+    },
+    {
+        "id": "66193985a1b563df",
+        "type": "invoke-action",
+        "z": "81c0345e4820cf71",
+        "name": "",
+        "topic": "",
+        "thing": "05c363a5ea7f0c4d",
+        "action": "on",
+        "uriVariables": "",
+        "x": 760,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbddf5d1a45d12dd",
+        "type": "invoke-action",
+        "z": "81c0345e4820cf71",
+        "name": "",
+        "topic": "",
+        "thing": "05c363a5ea7f0c4d",
+        "action": "off",
+        "uriVariables": "",
+        "x": 760,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b1e4d14293bd4a4",
+        "type": "debug",
+        "z": "81c0345e4820cf71",
+        "name": "lamp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9d2cffcb481d9d1f",
+        "type": "debug",
+        "z": "81c0345e4820cf71",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9b4ce26fabbdb369",
+        "type": "debug",
+        "z": "81c0345e4820cf71",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "37614d8701cbe92f",
+        "type": "consumed-thing",
+        "tdLink": "",
+        "td": "{\"@context\":\"https://www.w3.org/2019/wot/td/v1\",\"id\":\"MyLumi\",\"title\":\"MyLuminosityThing\",\"security\":[{\"scheme\":\"nosec\"}],\"properties\":{\"luminosity\":{\"type\":\"string\",\"forms\":[{\"href\":\"http://localhost:8889/api/properties/luminosity\"}]}},\"events\":{\"luminosityChanged\":{\"data\":{\"type\":{\"state\":\"string\",\"timestamp\":\"decimal\"}},\"forms\":[{\"href\":\"http://localhost:8889/api/events\"}]}}}",
+        "http": true,
+        "ws": false,
+        "coap": false,
+        "mqtt": false,
+        "opcua": false,
+        "modbus": false,
+        "basicAuth": false,
+        "username": "",
+        "password": ""
+    },
+    {
+        "id": "c4d46918806b6a7a",
+        "type": "consumed-thing",
+        "tdLink": "",
+        "td": "{\"@context\":\"https://www.w3.org/2019/wot/td/v1\",\"id\":\"MyPres\",\"title\":\"MyPresenceThing\",\"security\":[{\"scheme\":\"nosec\"}],\"properties\":{\"detection\":{\"type\":\"string\",\"forms\":[{\"href\":\"http://localhost:8890/api/properties/detection\"}]}},\"events\":{\"detectionChanged\":{\"data\":{\"type\":{\"state\":\"string\",\"timestamp\":\"decimal\"}},\"forms\":[{\"href\":\"http://localhost:8890/api/events\"}]}}}",
+        "http": true,
+        "ws": false,
+        "coap": false,
+        "mqtt": false,
+        "opcua": false,
+        "modbus": false,
+        "basicAuth": false,
+        "username": "",
+        "password": ""
+    },
+    {
+        "id": "05c363a5ea7f0c4d",
+        "type": "consumed-thing",
+        "tdLink": "",
+        "td": "{\"@context\":\"https://www.w3.org/2019/wot/td/v1\",\"id\":\"MyLamp\",\"title\":\"MyLampThing\",\"security\":[{\"scheme\":\"nosec\"}],\"properties\":{\"state\":{\"type\":\"string\",\"forms\":[{\"href\":\"http://localhost:8888/api/properties/state\"}]}},\"actions\":{\"on\":{\"forms\":[{\"href\":\"http://localhost:8888/api/actions/on\"}]},\"off\":{\"forms\":[{\"href\":\"http://localhost:8888/api/actions/off\"}]}},\"events\":{\"stateChanged\":{\"data\":{\"type\":{\"state\":\"string\",\"timestamp\":\"decimal\"}},\"forms\":[{\"href\":\"http://localhost:8888/api/events\"}]}}}",
+        "http": true,
+        "ws": false,
+        "coap": false,
+        "mqtt": false,
+        "opcua": false,
+        "modbus": false,
+        "basicAuth": false,
+        "username": "",
+        "password": ""
+    }
+]
