@@ -1,0 +1,7 @@
+const double k;
+
+P=? [ (true) U<=k (p6>0) ]
+
+// Something good (a reader or a writer enter actually read/write) happens in a bound (k)
+P=? [(true) U<=k ((p6>0) | (p7>0))]
+
