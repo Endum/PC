@@ -1947,3 +1947,16 @@ AVVERTENZA: Unmatched cancel notification for request id 3915
 2023.02.09 12:07:40 WARN  no build target for: C:\Users\benve\Desktop\git\PC\A_R\Activity-03\src\main\java\SmartBuilding.java
 2023.02.09 12:07:44 WARN  no build target for: C:\Users\benve\Desktop\git\PC\A_R\Activity-03\src\main\java\SmartBuilding.java
 2023.02.09 12:09:54 INFO  shutting down Metals
+2023.02.09 12:55:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benve\Desktop\git\PC\A_R\Activity-03\.metals\lsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.09 12:55:36 INFO  logging to file C:\Users\benve\Desktop\git\PC\A_R\Activity-03\.metals\metals.log
+2023.02.09 12:55:36 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\benve\Desktop\git\PC\A_R\Activity-03' for client Visual Studio Code 1.75.0.
+2023.02.09 12:55:36 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files (x86)\Java\jre1.8.0_341, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/benve/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.09 12:55:39 INFO  time: initialize in 2.53s
+2023.02.09 12:55:39 WARN  Build server is not auto-connectable.
+2023.02.09 14:11:05 INFO  shutting down Metals
