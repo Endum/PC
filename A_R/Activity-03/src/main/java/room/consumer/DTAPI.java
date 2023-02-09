@@ -11,7 +11,6 @@ public interface DTAPI {
 	 * 
 	 */
 	Future<JsonObject> getState();
-	
 
 	/**
 	 * 
