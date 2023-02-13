@@ -1,0 +1,28 @@
+2023.02.13 12:04:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\lsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.13 12:04:44 INFO  logging to file C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\metals.log
+2023.02.13 12:04:44 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\benve\Desktop\git\PC\A_R\Activity-02' for client Visual Studio Code 1.75.1.
+2023.02.13 12:04:44 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files (x86)\Java\jre1.8.0_341, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/benve/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.13 12:04:45 INFO  time: initialize in 0.87s
+2023.02.13 12:04:45 WARN  Build server is not auto-connectable.
+2023.02.13 12:04:45 WARN  no build target for: C:\Users\benve\Desktop\git\PC\A_R\Activity-02\src\main\java\lamp_thing\impl\LampThingService.java
+2023.02.13 12:04:45 WARN  no build target for: C:\Users\benve\Desktop\git\PC\A_R\Activity-02\src\main\java\lamp_thing\impl\RunThingsServices.java
+2023.02.13 12:05:10 INFO  running 'C:\Users\benve\AppData\Local\Temp\metals5914462089262848099\gradlew.bat --console=plain --init-script C:\Users\benve\AppData\Local\Temp\metals5914462089262848099\init-script.gradle bloopInstall'
+2023.02.13 12:05:15 INFO  > Task :configureBloopInstall
+2023.02.13 12:05:18 INFO  > Task :bloopInstall
+2023.02.13 12:05:18 INFO  
+2023.02.13 12:05:18 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+2023.02.13 12:05:18 INFO  
+2023.02.13 12:05:18 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2023.02.13 12:05:18 INFO  
+2023.02.13 12:05:18 INFO  See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+2023.02.13 12:05:18 INFO  
+2023.02.13 12:05:18 INFO  BUILD SUCCESSFUL in 7s
+2023.02.13 12:05:18 INFO  2 actionable tasks: 2 executed
+2023.02.13 12:05:18 INFO  time: ran 'gradle bloopInstall' in 7.74s
+2023.02.13 12:05:18 INFO  Attempting to connect to the build server...

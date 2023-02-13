@@ -1,0 +1,555 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "Activity-02",
+        "directory": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02",
+        "workspaceDir": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02",
+        "sources": [
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02\\src\\main\\java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\4.3.3\\b3394ded9736abb408c6563f04e6a8b75e6a7102\\vertx-web-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\4.3.3\\44d854c10ccba1b43412ea1abcf1811f0321e64f\\vertx-web-client-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-mqtt\\4.3.3\\9081b04b3b22b6fde1657c1ed627196e5e9a9227\\vertx-mqtt-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\4.3.3\\7afa905504a41590000be53051b7774502e63988\\vertx-web-common-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\4.3.3\\4eedaf010807127e5171a761aa9c9e68ea0d230e\\vertx-auth-common-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\4.3.3\\a9de6026edcc210d3fb1942536e62ecbaeb60535\\vertx-bridge-common-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-uri-template\\4.3.3\\db52418ce12e06fe020df66164d5b50b52650aae\\vertx-uri-template-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\4.3.3\\4ac9310e17f9075fd050a14ecc4b290a2ae24959\\vertx-core-4.3.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.paho\\org.eclipse.paho.client.mqttv3\\1.2.5\\1546cfc794449c39ad569853843a930104fdc297\\org.eclipse.paho.client.mqttv3-1.2.5.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-core\\2.6.4\\7c547b94119d94552630c880447458e15dfc05da\\californium-core-2.6.4.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.78.Final\\f9e5ad080d1d1a9a82ba598814e6f5a229db4594\\netty-handler-proxy-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.78.Final\\9a4e44bebe5979b59c9bf4cd879e65c4c52bf869\\netty-codec-http2-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.78.Final\\b636591e973418479f2d08e881b12be61845aa6f\\netty-codec-http-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.78.Final\\84fc82d8ff839d85c81979a5dc2525857b9a8837\\netty-resolver-dns-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.78.Final\\7e902b6018378bb700ec9364b1d0fba6eefd99fd\\netty-handler-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-mqtt\\4.1.78.Final\\711b00d9a6a28f985437d92fb957fc436199ea98\\netty-codec-mqtt-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-native-unix-common\\4.1.78.Final\\62c64e182a11e31ad80e68a94f0b02b45344df23\\netty-transport-native-unix-common-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.78.Final\\a8b9c0e9819e4e2c6c938e8f079683a65d85faf\\netty-codec-socks-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.78.Final\\6b51ce00cfe34adbe93171088f1c7fbd2a517308\\netty-codec-dns-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.78.Final\\e8486c8923fc0914df4562a8e0923462e885f88a\\netty-codec-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.78.Final\\b1639d431e43622d6cbfdd45c30d3fb810fa9101\\netty-transport-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.78.Final\\6c0c2d805a2c8ea30223677d8219235f9ec14c38\\netty-buffer-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.78.Final\\691170d70a979757d50f60e16121ced5f411a9b8\\netty-resolver-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.78.Final\\d6f560098050f88ba11750aa856edd955e4a7707\\netty-common-4.1.78.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.13.2\\a6a0e0620d51833feffc67bccb51937b2345763\\jackson-core-2.13.2.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\element-connector\\2.6.4\\f95cae92badd3d855106eec6e86237b7aeb04e59\\element-connector-2.6.4.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.25\\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\\slf4j-api-1.7.25.jar"
+        ],
+        "out": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02\\.bloop\\Activity-02\\build",
+        "classesDir": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02\\.bloop\\Activity-02\\build\\classes",
+        "resources": [
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02\\src\\main\\resources"
+        ],
+        "java": {
+            "options": [
+                "-source",
+                "1.8",
+                "-target",
+                "1.8",
+                "-h",
+                "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-02\\build\\generated\\sources\\headers\\java\\main",
+                "-g",
+                "-sourcepath",
+                "",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_341",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\4.3.3\\b3394ded9736abb408c6563f04e6a8b75e6a7102\\vertx-web-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\4.3.3\\44d854c10ccba1b43412ea1abcf1811f0321e64f\\vertx-web-client-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-mqtt\\4.3.3\\9081b04b3b22b6fde1657c1ed627196e5e9a9227\\vertx-mqtt-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\4.3.3\\7afa905504a41590000be53051b7774502e63988\\vertx-web-common-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\4.3.3\\4eedaf010807127e5171a761aa9c9e68ea0d230e\\vertx-auth-common-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\4.3.3\\a9de6026edcc210d3fb1942536e62ecbaeb60535\\vertx-bridge-common-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-uri-template\\4.3.3\\db52418ce12e06fe020df66164d5b50b52650aae\\vertx-uri-template-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\4.3.3\\4ac9310e17f9075fd050a14ecc4b290a2ae24959\\vertx-core-4.3.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.paho\\org.eclipse.paho.client.mqttv3\\1.2.5\\1546cfc794449c39ad569853843a930104fdc297\\org.eclipse.paho.client.mqttv3-1.2.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-core\\2.6.4\\7c547b94119d94552630c880447458e15dfc05da\\californium-core-2.6.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.78.Final\\f9e5ad080d1d1a9a82ba598814e6f5a229db4594\\netty-handler-proxy-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.78.Final\\9a4e44bebe5979b59c9bf4cd879e65c4c52bf869\\netty-codec-http2-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.78.Final\\b636591e973418479f2d08e881b12be61845aa6f\\netty-codec-http-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.78.Final\\84fc82d8ff839d85c81979a5dc2525857b9a8837\\netty-resolver-dns-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.78.Final\\7e902b6018378bb700ec9364b1d0fba6eefd99fd\\netty-handler-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-mqtt\\4.1.78.Final\\711b00d9a6a28f985437d92fb957fc436199ea98\\netty-codec-mqtt-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-native-unix-common\\4.1.78.Final\\62c64e182a11e31ad80e68a94f0b02b45344df23\\netty-transport-native-unix-common-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.78.Final\\a8b9c0e9819e4e2c6c938e8f079683a65d85faf\\netty-codec-socks-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.78.Final\\6b51ce00cfe34adbe93171088f1c7fbd2a517308\\netty-codec-dns-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.78.Final\\e8486c8923fc0914df4562a8e0923462e885f88a\\netty-codec-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.78.Final\\b1639d431e43622d6cbfdd45c30d3fb810fa9101\\netty-transport-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.78.Final\\6c0c2d805a2c8ea30223677d8219235f9ec14c38\\netty-buffer-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.78.Final\\691170d70a979757d50f60e16121ced5f411a9b8\\netty-resolver-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.78.Final\\d6f560098050f88ba11750aa856edd955e4a7707\\netty-common-4.1.78.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.13.2\\a6a0e0620d51833feffc67bccb51937b2345763\\jackson-core-2.13.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\element-connector\\2.6.4\\f95cae92badd3d855106eec6e86237b7aeb04e59\\element-connector-2.6.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-legal\\2.6.4\\6fadede85b8808d4a4a09a077ed879e064fb1de8\\californium-legal-2.6.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.25\\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\\slf4j-api-1.7.25.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.eclipse.californium",
+                    "name": "californium-legal",
+                    "version": "2.6.4",
+                    "artifacts": [
+                        {
+                            "name": "californium-legal",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-legal\\2.6.4\\6fadede85b8808d4a4a09a077ed879e064fb1de8\\californium-legal-2.6.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.78.Final\\b1639d431e43622d6cbfdd45c30d3fb810fa9101\\netty-transport-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.78.Final\\f3fa4b671e75a9248707063596d044d02a4cef85\\netty-transport-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-dns",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.78.Final\\e2675ed296bb7b7dafef42cdcf20832428e80d15\\netty-codec-dns-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-dns",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.78.Final\\6b51ce00cfe34adbe93171088f1c7fbd2a517308\\netty-codec-dns-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-native-unix-common\\4.1.78.Final\\f3c3280502e146512797efd1c1968f4aebdec1de\\netty-transport-native-unix-common-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-native-unix-common\\4.1.78.Final\\62c64e182a11e31ad80e68a94f0b02b45344df23\\netty-transport-native-unix-common-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-mqtt",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-mqtt",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-mqtt\\4.1.78.Final\\711b00d9a6a28f985437d92fb957fc436199ea98\\netty-codec-mqtt-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-mqtt",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-mqtt\\4.1.78.Final\\5005b89ad2a430201e53a6c586e3597295019a76\\netty-codec-mqtt-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.78.Final\\68a574145351122c9d19d53c330dd31495e23385\\netty-resolver-dns-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.78.Final\\84fc82d8ff839d85c81979a5dc2525857b9a8837\\netty-resolver-dns-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.78.Final\\b636591e973418479f2d08e881b12be61845aa6f\\netty-codec-http-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.78.Final\\7a902433a72f644fbe75812d6e3e54efc5791568\\netty-codec-http-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-uri-template",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-uri-template",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-uri-template\\4.3.3\\db52418ce12e06fe020df66164d5b50b52650aae\\vertx-uri-template-4.3.3.jar"
+                        },
+                        {
+                            "name": "vertx-uri-template",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-uri-template\\4.3.3\\5a10e3493be7568b1f57d3a6263fb1f1dc5d0193\\vertx-uri-template-4.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-mqtt",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-mqtt",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-mqtt\\4.3.3\\90797fdc8a1543bed628423cd684a22d0919c6fc\\vertx-mqtt-4.3.3-sources.jar"
+                        },
+                        {
+                            "name": "vertx-mqtt",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-mqtt\\4.3.3\\9081b04b3b22b6fde1657c1ed627196e5e9a9227\\vertx-mqtt-4.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-bridge-common",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-bridge-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\4.3.3\\a9de6026edcc210d3fb1942536e62ecbaeb60535\\vertx-bridge-common-4.3.3.jar"
+                        },
+                        {
+                            "name": "vertx-bridge-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\4.3.3\\416c89e5bd50ee4e6aaa75e9e0cc1699dc2bc82f\\vertx-bridge-common-4.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.78.Final\\a8b9c0e9819e4e2c6c938e8f079683a65d85faf\\netty-codec-socks-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.78.Final\\cfeba9058ac39c46f00b5934a44af2584d64ec1c\\netty-codec-socks-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-core",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\4.3.3\\98f99b6ed880585c1d36ce4ac16359141a6b1007\\vertx-core-4.3.3-sources.jar"
+                        },
+                        {
+                            "name": "vertx-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\4.3.3\\4ac9310e17f9075fd050a14ecc4b290a2ae24959\\vertx-core-4.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.78.Final\\4601a9dd87055c0c33a1b26a4abe4c0ae919dde9\\netty-handler-proxy-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.78.Final\\f9e5ad080d1d1a9a82ba598814e6f5a229db4594\\netty-handler-proxy-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.californium",
+                    "name": "californium-core",
+                    "version": "2.6.4",
+                    "artifacts": [
+                        {
+                            "name": "californium-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-core\\2.6.4\\b7066cbf945a684e22e4bf3b45514eb5dd8d0fa\\californium-core-2.6.4-sources.jar"
+                        },
+                        {
+                            "name": "californium-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\californium-core\\2.6.4\\7c547b94119d94552630c880447458e15dfc05da\\californium-core-2.6.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.78.Final\\624ca86c1600616f619b2702592bba8d3b4dca27\\netty-common-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.78.Final\\d6f560098050f88ba11750aa856edd955e4a7707\\netty-common-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.paho",
+                    "name": "org.eclipse.paho.client.mqttv3",
+                    "version": "1.2.5",
+                    "artifacts": [
+                        {
+                            "name": "org.eclipse.paho.client.mqttv3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.paho\\org.eclipse.paho.client.mqttv3\\1.2.5\\84b4c91988da0a6e20ae5ac622b3b053492ecb51\\org.eclipse.paho.client.mqttv3-1.2.5-sources.jar"
+                        },
+                        {
+                            "name": "org.eclipse.paho.client.mqttv3",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.paho\\org.eclipse.paho.client.mqttv3\\1.2.5\\1546cfc794449c39ad569853843a930104fdc297\\org.eclipse.paho.client.mqttv3-1.2.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web-client",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web-client",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\4.3.3\\44d854c10ccba1b43412ea1abcf1811f0321e64f\\vertx-web-client-4.3.3.jar"
+                        },
+                        {
+                            "name": "vertx-web-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\4.3.3\\8da06fe69d961ad0da0ad278af51caecf780da7\\vertx-web-client-4.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.78.Final\\229f4aba7a7382cd29951fb2477f058b3f09bace\\netty-buffer-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.78.Final\\6c0c2d805a2c8ea30223677d8219235f9ec14c38\\netty-buffer-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-auth-common",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-auth-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\4.3.3\\4eedaf010807127e5171a761aa9c9e68ea0d230e\\vertx-auth-common-4.3.3.jar"
+                        },
+                        {
+                            "name": "vertx-auth-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\4.3.3\\74d6f6ed4a6bf1ae4b6eb3a2b7120ad519df64ee\\vertx-auth-common-4.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web-common",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\4.3.3\\a176fe8c1a686403335af5d69f2ee6968eccde5\\vertx-web-common-4.3.3-sources.jar"
+                        },
+                        {
+                            "name": "vertx-web-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\4.3.3\\7afa905504a41590000be53051b7774502e63988\\vertx-web-common-4.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.californium",
+                    "name": "element-connector",
+                    "version": "2.6.4",
+                    "artifacts": [
+                        {
+                            "name": "element-connector",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\element-connector\\2.6.4\\80d4b6bee32410216e06b236c8da81f027ad81d4\\element-connector-2.6.4-sources.jar"
+                        },
+                        {
+                            "name": "element-connector",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.californium\\element-connector\\2.6.4\\f95cae92badd3d855106eec6e86237b7aeb04e59\\element-connector-2.6.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.78.Final\\9a4e44bebe5979b59c9bf4cd879e65c4c52bf869\\netty-codec-http2-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.78.Final\\ba3ab200c7ec6bfb68ef1bc91d699fef27759d07\\netty-codec-http2-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.13.2\\a6a0e0620d51833feffc67bccb51937b2345763\\jackson-core-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.13.2\\f18990d027317810bb1a131a32ce4f001c8eaf2f\\jackson-core-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.78.Final\\586f7f8de7aaed7f1c4d50e494d73fddffcaac5\\netty-codec-4.1.78.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.78.Final\\e8486c8923fc0914df4562a8e0923462e885f88a\\netty-codec-4.1.78.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.78.Final\\7e902b6018378bb700ec9364b1d0fba6eefd99fd\\netty-handler-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.78.Final\\b3a6d7c7f3d3380eade1364995bba496bd12801a\\netty-handler-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.78.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.78.Final\\691170d70a979757d50f60e16121ced5f411a9b8\\netty-resolver-4.1.78.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.78.Final\\cf94e7820676f92e3428459088c228fbbfbddf42\\netty-resolver-4.1.78.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web",
+                    "version": "4.3.3",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\4.3.3\\e69b31a4516070aaa2a48ab84da2ebf850c5fbd9\\vertx-web-4.3.3-sources.jar"
+                        },
+                        {
+                            "name": "vertx-web",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\4.3.3\\b3394ded9736abb408c6563f04e6a8b75e6a7102\\vertx-web-4.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.25",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.25\\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\\slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.25\\962153db4a9ea71b79d047dfd1b2a0d80d8f4739\\slf4j-api-1.7.25-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
