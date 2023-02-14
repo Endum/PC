@@ -1,0 +1,2174 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "Activity-04",
+        "directory": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04",
+        "workspaceDir": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04",
+        "sources": [
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\int",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\org",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\main\\java",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\java",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\agt",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\env"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo\\1.1\\6f3a791b06578a39435448e453729d2ccba66f10\\jacamo-1.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\3.7.1\\1530667b02c1b7edf0e495dbf5df0c00a591950d\\vertx-core-3.7.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jason\\jason\\3.1\\25502bc66182dca6a811148b348e91db1a8d426b\\jason-3.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\cartago\\3.1\\318b737fb290f3a90956e6cc4d6193ec8df96fc7\\cartago-3.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jaca\\3.1\\e06cf4b16ef59846e6ee8690af4a69116a1d3a8\\jaca-3.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\moise\\1.0\\f4f37f4bebe749740428e7a8534b2041b172dab2\\moise-1.0.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\npl\\0.5\\f2aa18d72760bbc4963f47feddc7456e99a01cf3\\npl-0.5.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\intmas\\1.0.0\\d2a9bff5c612157b1b9a4270c632d3e2a67e7fbb\\intmas-1.0.0.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\sai\\0.5.1\\aa9759b4d15a32819a903b0be99118553df29660\\sai-0.5.1.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.ingenias\\jade\\4.3\\2cf02ba26058230c72da969100a3c2e2e7f06628\\jade-4.3.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.34.Final\\42b5a57a4bb895f4489a724cdc9e454bc5afe108\\netty-handler-proxy-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.34.Final\\66268942ed80beadaf6802e2fcf8983eef4fb7ec\\netty-codec-http2-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.34.Final\\2887d87fbc1b057657348f61dc538f7296daf79\\netty-codec-http-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.34.Final\\96169098bebda3d1432f5421c338958063b3da52\\netty-handler-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.34.Final\\ca536138bcc44997354cdd102933656f65f56c7\\netty-resolver-dns-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.34.Final\\345a10b91e4876cb6ec642a3c010ca187f361fa0\\netty-codec-socks-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.34.Final\\40352df88786faf68901fa01b0c51baafcad5115\\netty-codec-dns-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.34.Final\\cb53baf46cc55768f2e28d15cde399063555ea8\\netty-codec-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.34.Final\\f57be6509efa6766d90e537a775930101f26b35c\\netty-transport-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.34.Final\\8afc2027eadc7848127553ebb490ea0e2b199d4e\\netty-buffer-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.34.Final\\528789e98eef519960a56e44569ecb2260782fd7\\netty-resolver-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.34.Final\\2dffa21967d36cae446b6905bd5fb39750fcba43\\netty-common-4.1.34.Final.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.8\\11283f21cc480aa86c4df7a0a3243ec508372ed2\\jackson-databind-2.9.8.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.8\\f5a654e4675769c716e5b387830d19b501ca191\\jackson-core-2.9.8.jar",
+            "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.0\\7c10d545325e3a6e72e06381afe469fd40eb701\\jackson-annotations-2.9.0.jar"
+        ],
+        "out": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\.bloop\\Activity-04\\build",
+        "classesDir": "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\.bloop\\Activity-04\\build\\classes",
+        "resources": [
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\main\\resources",
+            "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\src\\resources"
+        ],
+        "java": {
+            "options": [
+                "-source",
+                "15",
+                "-target",
+                "15",
+                "-h",
+                "C:\\Users\\benve\\Desktop\\git\\PC\\A_R\\Activity-04\\build\\generated\\sources\\headers\\java\\main",
+                "-g",
+                "-sourcepath",
+                "",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_341",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo\\1.1\\6f3a791b06578a39435448e453729d2ccba66f10\\jacamo-1.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-sync\\3.7.0\\80eba3ba22f922261a1854d65a86d4101e8b6674\\vertx-sync-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-unit\\3.7.0\\440a76052bca7b1b9967228c4991614ab4a30966\\vertx-unit-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\3.7.0\\cd8335ec1ca7b032631f0c2dfe571fb941ff38ed\\vertx-web-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\3.7.0\\76c89515a108e52600be1c9cb779f2119f6176c4\\vertx-web-client-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\3.7.0\\d3a7ac47a80179601a0ec40ba6103766758f6e10\\vertx-web-common-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\3.7.0\\76c12caa061867f04a4521597a66a04e290d2815\\vertx-auth-common-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\3.7.1\\1530667b02c1b7edf0e495dbf5df0c00a591950d\\vertx-core-3.7.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4\\4.8\\c5902f3079595a5e73dd6b008340a8197ee1aeda\\antlr4-4.8.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo-rest\\0.7\\48327b330a702b9502fc1eebf07f9a5d5ef3e768\\jacamo-rest-0.7.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jason\\jason\\3.1\\25502bc66182dca6a811148b348e91db1a8d426b\\jason-3.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant\\1.10.5\\4a48332c2df6f535d9dd9d904cd780ab26266e20\\ant-1.10.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.gradle\\gradle-tooling-api\\7.4.2\\c5f7466f9e1ec49ee56080c35e1e68ae30972d9\\gradle-tooling-api-7.4.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\guru.nidi\\graphviz-java\\0.7.0\\f491761d6277e21963fc290777ce799262e03d78\\graphviz-java-0.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-nop\\1.7.30\\55d4c73dd343efebd236abfeb367c9ef41d55063\\slf4j-nop-1.7.30.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-json-jackson\\2.29.1\\e16c6b8d486604ac55a2b5f49b20e75564e7979b\\jersey-media-json-jackson-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.module\\jackson-module-jaxb-annotations\\2.9.9\\52fb643de81a60839750013a520f26b6259ddeff\\jackson-module-jaxb-annotations-2.9.9.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.9\\d6eb9817d9c7289a91f043ac5ee02a6b3cc86238\\jackson-databind-2.9.9.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\cartago\\3.1\\318b737fb290f3a90956e6cc4d6193ec8df96fc7\\cartago-3.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jaca\\3.1\\e06cf4b16ef59846e6ee8690af4a69116a1d3a8\\jaca-3.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\moise\\1.0\\f4f37f4bebe749740428e7a8534b2041b172dab2\\moise-1.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\npl\\0.5\\f2aa18d72760bbc4963f47feddc7456e99a01cf3\\npl-0.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\intmas\\1.0.0\\d2a9bff5c612157b1b9a4270c632d3e2a67e7fbb\\intmas-1.0.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\sai\\0.5.1\\aa9759b4d15a32819a903b0be99118553df29660\\sai-0.5.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.ingenias\\jade\\4.3\\2cf02ba26058230c72da969100a3c2e2e7f06628\\jade-4.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.34.Final\\42b5a57a4bb895f4489a724cdc9e454bc5afe108\\netty-handler-proxy-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.34.Final\\66268942ed80beadaf6802e2fcf8983eef4fb7ec\\netty-codec-http2-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.34.Final\\2887d87fbc1b057657348f61dc538f7296daf79\\netty-codec-http-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.34.Final\\96169098bebda3d1432f5421c338958063b3da52\\netty-handler-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.34.Final\\ca536138bcc44997354cdd102933656f65f56c7\\netty-resolver-dns-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.34.Final\\345a10b91e4876cb6ec642a3c010ca187f361fa0\\netty-codec-socks-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.34.Final\\40352df88786faf68901fa01b0c51baafcad5115\\netty-codec-dns-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.34.Final\\cb53baf46cc55768f2e28d15cde399063555ea8\\netty-codec-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.34.Final\\f57be6509efa6766d90e537a775930101f26b35c\\netty-transport-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.34.Final\\8afc2027eadc7848127553ebb490ea0e2b199d4e\\netty-buffer-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.34.Final\\528789e98eef519960a56e44569ecb2260782fd7\\netty-resolver-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.34.Final\\2dffa21967d36cae446b6905bd5fb39750fcba43\\netty-common-4.1.34.Final.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.9\\bfff5af9fb8347d26bbb7959cb9b4fe9a2b0ca5e\\jackson-core-2.9.9.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.8\\7fe453b678b71c87c6677cef26f6b0cd96b26586\\antlr4-runtime-4.8.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\ST4\\4.3\\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\\ST4-4.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr-runtime\\3.5.2\\cd9cd41361c155f3af0f653009dcecb08d8b4afd\\antlr-runtime-3.5.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.abego.treelayout\\org.abego.treelayout.core\\1.0.3\\457216e8e6578099ae63667bb1e4439235892028\\org.abego.treelayout.core-1.0.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish\\javax.json\\1.1.4\\943f240a509d3c70b448a55c6735591ecbd37c88\\javax.json-1.1.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j\\61.1\\28d33b5e44e72edcc66a5da7a34a42147f38d987\\icu4j-61.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\\jaxb-api-2.3.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-core\\2.3.0.1\\23574ca124d0a694721ce3ef13cd720095f18fdd\\jaxb-core-2.3.0.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-impl\\2.3.1\\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\\jaxb-impl-2.3.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet\\2.29.1\\e04bec5a21eb88f098b6eb90d418df43d21bab15\\jersey-container-servlet-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet-core\\2.29.1\\374a2d5702b46d0c14c6e1ecfa1486d5d76bc947\\jersey-container-servlet-core-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.inject\\jersey-hk2\\2.29.1\\54b316e9f91ac9de1e6900aeb63457505862a296\\jersey-hk2-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey\\jersey-bom\\2.29.1\\51599b9827834646d358b92befa59a1cc21f9314\\jersey-bom-2.29.1.pom",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-grizzly2-http\\2.29.1\\5b70b50891d48f6ee3dcf77d15f729ec900ab035\\jersey-container-grizzly2-http-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-server\\2.29.1\\edeaa59abad953156a4ed83199780d66ce7998c0\\jersey-server-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-client\\2.29.1\\1635f245b7e9eecf8d3d753fba87f3b79aef1b34\\jersey-client-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-multipart\\2.29.1\\de81eade6cddbb1438273237b4e52da451df8bca\\jersey-media-multipart-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http-server\\2.4.4\\f9a62c711eb51f351cc5ba48faf44d5a49faa0a7\\grizzly-http-server-2.4.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\20.0\\89507701249388e1ed5ddcf8c41f4ce1be7831ef\\guava-20.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.5\\f645ed69d595b24d4cf8b3fbb64cc505bede8829\\gson-2.8.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-rasterizer\\1.10\\21784e4d91d22a6dbec11ae3d6867e316a3d4276\\batik-rasterizer-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svgrasterizer\\1.10\\df63334c6f242d77a67ebd5c140bc8c4f2b37126\\batik-svgrasterizer-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-codec\\1.10\\c45741fdde905465a3c008aa7473b2a4a213c7c1\\batik-codec-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-transcoder\\1.10\\66d3c8025f50c77834ff4bb09055278fe95070fa\\batik-transcoder-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-bridge\\1.10\\53cdf9504d1eefe0ee3bcf616a882d5a2b93ffd4\\batik-bridge-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-script\\1.10\\76c0790c695c9cec110163aef89f1de05c5d0a96\\batik-script-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-anim\\1.10\\e301c476768a53a33ec473b265fbdceb45dce464\\batik-anim-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svg-dom\\1.10\\98b083931c3a9d3fa4b544ea927940689899eb5e\\batik-svg-dom-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-parser\\1.10\\afe740ee774eb7f94a3f9ae056724dff0d84d7e1\\batik-parser-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-gvt\\1.10\\7091974abb3f57141f29aa94d2fbf8a06d22f837\\batik-gvt-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svggen\\1.10\\1657ee1418304ade24a213e028d89a18e9dec13b\\batik-svggen-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-awt-util\\1.10\\32712076ffee3eb533bc32f45f5c4b3f25b82749\\batik-awt-util-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-dom\\1.10\\5f94e491f3b4653c834201dcb36fa7b2169a4af9\\batik-dom-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-css\\1.10\\a1b95b2fc81d2089a089e2bb1c143b743cd0eb26\\batik-css-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\xmlgraphics-commons\\2.3\\f0b77d80c4d8f02538512b4d505af0cf5286eb7f\\xmlgraphics-commons-2.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-io\\commons-io\\2.6\\815893df5f31da2ece4040fe0a12fd44b577afaf\\commons-io-2.6.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.json\\javax.json-api\\1.1.4\\c8efa3cfaeee2b05c2dfd54cba21548a081b1746\\javax.json-api-1.1.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger\\swagger-annotations\\1.6.5\\61cb59e697ba7d38373063afde95507ab55de72\\swagger-annotations-1.6.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant-launcher\\1.10.5\\e84c8cf7b0cbac5ef101cf56ff8d439fa77e36c2\\ant-launcher-1.10.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jcl-over-slf4j\\1.7.25\\f8c32b13ff142a513eeb5b6330b1588dcb2c0461\\jcl-over-slf4j-1.7.25.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\1.7.25\\af5364cd6679bfffb114f0dec8a157aaa283b76\\jul-to-slf4j-1.7.25.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\\slf4j-api-1.7.30.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.arnx\\nashorn-promise\\0.1.1\\3bae6bc4b167e0866dfb29aa9ff09ba55c6f0a52\\nashorn-promise-0.1.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_macosx_x86_64\\4.6.0\\863d30016246f6d7356c88eaf36c3e924a2ffd3c\\j2v8_macosx_x86_64-4.6.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_linux_x86_64\\4.6.0\\e9714fbde87cf371071f6533824564e7499435fa\\j2v8_linux_x86_64-4.6.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86_64\\4.6.0\\49e1cc812d34b6019d2cafc36c67cd599889b26b\\j2v8_win32_x86_64-4.6.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86\\4.6.0\\6b3844b935145691edfb2c674371c783df0804ab\\j2v8_win32_x86-4.6.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-exec\\1.3\\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\\commons-exec-1.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\3.0.2\\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\\jsr305-3.0.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\co.paralleluniverse\\quasar-core\\0.7.10\\3916162ad638c8a6cb8f3588a9f080dc792bc052\\quasar-core-0.7.10-jdk8.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\3.7.0\\36ff7bf7800e14de787fee5b13c36628ddc1716e\\vertx-bridge-common-3.7.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.9\\2ea299c145207161c212e28abbc8f513fa245940\\jackson-annotations-2.9.9.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\85262acf3ca9816f9537ca47d5adeabaead7cb16\\javax.activation-api-1.2.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-jaxb\\2.29.1\\53f22b94254ff781667b3313acbb3afebfd091b5\\jersey-media-jaxb-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-common\\2.29.1\\ea60b9ace56f1ae758c2eebbb48e8387d959102f\\jersey-common-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.ext\\jersey-entity-filtering\\2.29.1\\e68a310e03fcd97f245854e7f59b2e9668c5c146\\jersey-entity-filtering-2.29.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.ws.rs\\jakarta.ws.rs-api\\2.1.6\\1dcb770bce80a490dff49729b99c7a60e9ecb122\\jakarta.ws.rs-api-2.1.6.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-locator\\2.6.1\\9dedf9d2022e38ec0743ed44c1ac94ad6149acdd\\hk2-locator-2.6.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-api\\2.6.1\\114bd7afb4a1bd9993527f52a08a252b5d2acac5\\hk2-api-2.6.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-utils\\2.6.1\\396513aa96c1d5a10aa4f75c4dcbf259a698d62d\\hk2-utils-2.6.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\jakarta.inject\\2.6.1\\8096ebf722902e75fbd4f532a751e514f02e1eb7\\jakarta.inject-2.6.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\1.3.5\\59eb84ee0d616332ff44aba065f3888cf002cd2d\\jakarta.annotation-api-1.3.5.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.validation\\jakarta.validation-api\\2.0.2\\5eacc6522521f7eacb081f95cee1e231648461e7\\jakarta.validation-api-2.0.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.mimepull\\mimepull\\1.9.11\\d1cd7921d4c6c77938cefbb16d4f646c74278718\\mimepull-1.9.11.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http\\2.4.4\\c789d449906458d4174126f6a4fefdd7a6008777\\grizzly-http-2.4.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-xml\\1.10\\601a184d2e363e0900eeec3617e62a3162a6fe37\\batik-xml-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-util\\1.10\\f40a4624616047c86f4bc80c985426afff964975\\batik-util-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\kryo\\4.0.0\\9f5c64c1315ec79bee0f56bb88e4ae94b65048ce\\kryo-4.0.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\de.javakaffee\\kryo-serializers\\0.42\\2f541b01c7a67f688ab6fde619cd66ce1c2cde56\\kryo-serializers-0.42.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\osgi-resource-locator\\1.0.3\\de3b21279df7e755e38275137539be5e2c80dd58\\osgi-resource-locator-1.0.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\aopalliance-repackaged\\2.6.1\\b2eb0a83bcbb44cc5d25f8b18f23be116313a638\\aopalliance-repackaged-2.6.1.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.22.0-CR2\\44eaf0990dea92f4bca4b9931b2239c0e8756ee7\\javassist-3.22.0-CR2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-framework\\2.4.4\\85ff29df39616972a074737948f116ef25addfee\\grizzly-framework-2.4.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xml-apis\\xml-apis-ext\\1.3.04\\41a8b86b358e87f3f13cf46069721719105aff66\\xml-apis-ext-1.3.04.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-constants\\1.10\\53079777c80f005c10cc4837e9d3c90ad890f1a1\\batik-constants-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-i18n\\1.10\\14923525d8c01b3cbfa9d340c0d2bf315a85b3f0\\batik-i18n-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\reflectasm\\1.11.3\\8b102eed2f12412b254946811111ea48bc03a266\\reflectasm-1.11.3.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\minlog\\1.3.0\\ff07b5f1b01d2f92bb00a337f9a94873712f0827\\minlog-1.3.0.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\2.2\\3fb533efdaa50a768c394aa4624144cf8df17845\\objenesis-2.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.0.4\\f029a2aefe2b3e1517573c580f948caac31b1056\\commons-logging-1.0.4.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-ext\\1.10\\23a27a446965644ff5593dab2003221936ca2499\\batik-ext-1.10.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\xalan\\2.7.2\\d55d3f02a56ec4c25695fe67e1334ff8c2ecea23\\xalan-2.7.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\serializer\\2.7.2\\24247f3bb052ee068971393bdb83e04512bb1c3c\\serializer-2.7.2.jar",
+                "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xml-apis\\xml-apis\\1.3.04\\90b215f48fe42776c8c7f6e3509ec54e84fd65ef\\xml-apis-1.3.04.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-common",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-common\\2.29.1\\ea5aade1035c5d0613eda23abf11d6de88424350\\jersey-common-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-common\\2.29.1\\ea60b9ace56f1ae758c2eebbb48e8387d959102f\\jersey-common-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.34.Final\\1ff7e75791d92b4cfa488c3ed62b0728cc55ac25\\netty-resolver-dns-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver-dns\\4.1.34.Final\\ca536138bcc44997354cdd102933656f65f56c7\\netty-resolver-dns-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware",
+                    "name": "reflectasm",
+                    "version": "1.11.3",
+                    "artifacts": [
+                        {
+                            "name": "reflectasm",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\reflectasm\\1.11.3\\8b102eed2f12412b254946811111ea48bc03a266\\reflectasm-1.11.3.jar"
+                        },
+                        {
+                            "name": "reflectasm",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\reflectasm\\1.11.3\\d70b212888d5acf77018d6b95acded6ee551da4d\\reflectasm-1.11.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.media",
+                    "name": "jersey-media-jaxb",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-media-jaxb",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-jaxb\\2.29.1\\46a3724a4dbb835932ac1e58a482659351278727\\jersey-media-jaxb-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-media-jaxb",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-jaxb\\2.29.1\\53f22b94254ff781667b3313acbb3afebfd091b5\\jersey-media-jaxb-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.grizzly",
+                    "name": "grizzly-framework",
+                    "version": "2.4.4",
+                    "artifacts": [
+                        {
+                            "name": "grizzly-framework",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-framework\\2.4.4\\1eeb6761586a7038132403d8e614518015aa1170\\grizzly-framework-2.4.4-sources.jar"
+                        },
+                        {
+                            "name": "grizzly-framework",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-framework\\2.4.4\\85ff29df39616972a074737948f116ef25addfee\\grizzly-framework-2.4.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.34.Final\\dadda927b43ff7d618ae7f076070f725806a9040\\netty-codec-http-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http\\4.1.34.Final\\2887d87fbc1b057657348f61dc538f7296daf79\\netty-codec-http-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-css",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-css",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-css\\1.10\\a1b95b2fc81d2089a089e2bb1c143b743cd0eb26\\batik-css-1.10.jar"
+                        },
+                        {
+                            "name": "batik-css",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-css\\1.10\\dfb5187a13d176bda919ca3490d57116772ac1a3\\batik-css-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr-runtime",
+                    "version": "3.5.2",
+                    "artifacts": [
+                        {
+                            "name": "antlr-runtime",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr-runtime\\3.5.2\\5214ea45dd20d3a2e4caa6f1ad2248ad107e0daf\\antlr-runtime-3.5.2-sources.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr-runtime\\3.5.2\\cd9cd41361c155f3af0f653009dcecb08d8b4afd\\antlr-runtime-3.5.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.ibm.icu",
+                    "name": "icu4j",
+                    "version": "61.1",
+                    "artifacts": [
+                        {
+                            "name": "icu4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j\\61.1\\df1b5d109cd3734abc5ea028b48c67b5a1a44365\\icu4j-61.1-sources.jar"
+                        },
+                        {
+                            "name": "icu4j",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j\\61.1\\28d33b5e44e72edcc66a5da7a34a42147f38d987\\icu4j-61.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "moise",
+                    "version": "1.0",
+                    "artifacts": [
+                        {
+                            "name": "moise",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\moise\\1.0\\b6c1fdd31f921650532a08daef64681a56b44461\\moise-1.0-sources.jar"
+                        },
+                        {
+                            "name": "moise",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\moise\\1.0\\f4f37f4bebe749740428e7a8534b2041b172dab2\\moise-1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-unit",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-unit",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-unit\\3.7.0\\6fa3143e6aaa1067a89a9bde219d7eaadfb5865a\\vertx-unit-3.7.0-sources.jar"
+                        },
+                        {
+                            "name": "vertx-unit",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-unit\\3.7.0\\440a76052bca7b1b9967228c4991614ab4a30966\\vertx-unit-3.7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-jaxb-annotations",
+                    "version": "2.9.9",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-jaxb-annotations",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.module\\jackson-module-jaxb-annotations\\2.9.9\\52fb643de81a60839750013a520f26b6259ddeff\\jackson-module-jaxb-annotations-2.9.9.jar"
+                        },
+                        {
+                            "name": "jackson-module-jaxb-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.module\\jackson-module-jaxb-annotations\\2.9.9\\e721989939fbc0ea30316bbb32948752022797e9\\jackson-module-jaxb-annotations-2.9.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-codec",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-codec",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-codec\\1.10\\c45741fdde905465a3c008aa7473b2a4a213c7c1\\batik-codec-1.10.jar"
+                        },
+                        {
+                            "name": "batik-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-codec\\1.10\\36e3b1d8c122a00b764cc805ccce56af580eaac6\\batik-codec-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.34.Final\\f57be6509efa6766d90e537a775930101f26b35c\\netty-transport-4.1.34.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.34.Final\\d771bab067a3b634d1d5ee86b55be0da14a4463b\\netty-transport-4.1.34.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "guru.nidi",
+                    "name": "graphviz-java",
+                    "version": "0.7.0",
+                    "artifacts": [
+                        {
+                            "name": "graphviz-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\guru.nidi\\graphviz-java\\0.7.0\\de3d3491c9cddc1332ac224c5e34d57e89993008\\graphviz-java-0.7.0-sources.jar"
+                        },
+                        {
+                            "name": "graphviz-java",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\guru.nidi\\graphviz-java\\0.7.0\\f491761d6277e21963fc290777ce799262e03d78\\graphviz-java-0.7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eclipsesource.j2v8",
+                    "name": "j2v8_win32_x86_64",
+                    "version": "4.6.0",
+                    "artifacts": [
+                        {
+                            "name": "j2v8_win32_x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86_64\\4.6.0\\8dbb6f4a125af8ed02927b0526900b356040dba9\\j2v8_win32_x86_64-4.6.0-sources.jar"
+                        },
+                        {
+                            "name": "j2v8_win32_x86_64",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86_64\\4.6.0\\49e1cc812d34b6019d2cafc36c67cd599889b26b\\j2v8_win32_x86_64-4.6.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-api",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-api\\2.6.1\\911d7e334b8b230b491bb130af8404fdb7a81059\\hk2-api-2.6.1-sources.jar"
+                        },
+                        {
+                            "name": "hk2-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-api\\2.6.1\\114bd7afb4a1bd9993527f52a08a252b5d2acac5\\hk2-api-2.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.25",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jcl-over-slf4j\\1.7.25\\f8c32b13ff142a513eeb5b6330b1588dcb2c0461\\jcl-over-slf4j-1.7.25.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jcl-over-slf4j\\1.7.25\\ffd0827a7c67d5915b7dc611afbda56a1f247191\\jcl-over-slf4j-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web-client",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web-client",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\3.7.0\\76c89515a108e52600be1c9cb779f2119f6176c4\\vertx-web-client-3.7.0.jar"
+                        },
+                        {
+                            "name": "vertx-web-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-client\\3.7.0\\b8ccf3f09a9a1693a35f1bd5f726849a018d5489\\vertx-web-client-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-utils",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-utils",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-utils\\2.6.1\\396513aa96c1d5a10aa4f75c4dcbf259a698d62d\\hk2-utils-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-utils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-utils\\2.6.1\\91a2264ed6d909c44763fc807d22a19da87b84c9\\hk2-utils-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "sai",
+                    "version": "0.5.1",
+                    "artifacts": [
+                        {
+                            "name": "sai",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\sai\\0.5.1\\aa9759b4d15a32819a903b0be99118553df29660\\sai-0.5.1.jar"
+                        },
+                        {
+                            "name": "sai",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\sai\\0.5.1\\ac807af3f25a8d24223aed9d739d81932e4254a7\\sai-0.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-exec",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "commons-exec",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-exec\\1.3\\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\\commons-exec-1.3.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-exec\\1.3\\efd2543e352e55ce5a685eed6db8af028b737905\\commons-exec-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.ws.rs",
+                    "name": "jakarta.ws.rs-api",
+                    "version": "2.1.6",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.ws.rs\\jakarta.ws.rs-api\\2.1.6\\6c66d1fc6dfd1de469e831d2cab362ce07b2561d\\jakarta.ws.rs-api-2.1.6-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.ws.rs\\jakarta.ws.rs-api\\2.1.6\\1dcb770bce80a490dff49729b99c7a60e9ecb122\\jakarta.ws.rs-api-2.1.6.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-dns",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.34.Final\\e6470705968ff8575deea4f8811227fed887e22c\\netty-codec-dns-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-dns",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-dns\\4.1.34.Final\\40352df88786faf68901fa01b0c51baafcad5115\\netty-codec-dns-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xml-apis",
+                    "name": "xml-apis-ext",
+                    "version": "1.3.04",
+                    "artifacts": [
+                        {
+                            "name": "xml-apis-ext",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xml-apis\\xml-apis-ext\\1.3.04\\41a8b86b358e87f3f13cf46069721719105aff66\\xml-apis-ext-1.3.04.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-sync",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-sync",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-sync\\3.7.0\\80eba3ba22f922261a1854d65a86d4101e8b6674\\vertx-sync-3.7.0.jar"
+                        },
+                        {
+                            "name": "vertx-sync",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-sync\\3.7.0\\4b3180cb38b75557a0f84cb215e6df5d17eb209b\\vertx-sync-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.9.8",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.8\\ecaea301e166a0b48f11615864246de739b6619b\\jackson-core-2.9.8-sources.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.8\\f5a654e4675769c716e5b387830d19b501ca191\\jackson-core-2.9.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.9.9",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.9\\d6eb9817d9c7289a91f043ac5ee02a6b3cc86238\\jackson-databind-2.9.9.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.9\\8b717e1bc24a642cee070ae3860f04eb20c92779\\jackson-databind-2.9.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.swagger",
+                    "name": "swagger-annotations",
+                    "version": "1.6.5",
+                    "artifacts": [
+                        {
+                            "name": "swagger-annotations",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger\\swagger-annotations\\1.6.5\\61cb59e697ba7d38373063afde95507ab55de72\\swagger-annotations-1.6.5.jar"
+                        },
+                        {
+                            "name": "swagger-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger\\swagger-annotations\\1.6.5\\8d9745f532ddd2747a1bf3dcb8f8c6e5b8756bd6\\swagger-annotations-1.6.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.arnx",
+                    "name": "nashorn-promise",
+                    "version": "0.1.1",
+                    "artifacts": [
+                        {
+                            "name": "nashorn-promise",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.arnx\\nashorn-promise\\0.1.1\\3bae6bc4b167e0866dfb29aa9ff09ba55c6f0a52\\nashorn-promise-0.1.1.jar"
+                        },
+                        {
+                            "name": "nashorn-promise",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.arnx\\nashorn-promise\\0.1.1\\96cc495e4bb583382894e4f69e7d46305fc02f90\\nashorn-promise-0.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.xml.bind",
+                    "name": "jaxb-api",
+                    "version": "2.3.1",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\\jaxb-api-2.3.1.jar"
+                        },
+                        {
+                            "name": "jaxb-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\e47264d065cecbc572ba99856fcc7da19a470ae3\\jaxb-api-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.paralleluniverse",
+                    "name": "quasar-core",
+                    "version": "0.7.10",
+                    "artifacts": [
+                        {
+                            "name": "quasar-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\co.paralleluniverse\\quasar-core\\0.7.10\\3916162ad638c8a6cb8f3588a9f080dc792bc052\\quasar-core-0.7.10-jdk8.jar"
+                        },
+                        {
+                            "name": "quasar-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\co.paralleluniverse\\quasar-core\\0.7.10\\859c7790c5378fcebbc22bdb25eb8346fa96ec68\\quasar-core-0.7.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "aopalliance-repackaged",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance-repackaged",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\aopalliance-repackaged\\2.6.1\\b2eb0a83bcbb44cc5d25f8b18f23be116313a638\\aopalliance-repackaged-2.6.1.jar"
+                        },
+                        {
+                            "name": "aopalliance-repackaged",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\aopalliance-repackaged\\2.6.1\\8225e1c5c5615a447227ed9164e709be1e77802d\\aopalliance-repackaged-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.34.Final\\cede11d4e83ae950f42a668e10e9b19612af703f\\netty-codec-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.34.Final\\cb53baf46cc55768f2e28d15cde399063555ea8\\netty-codec-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-util",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-util",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-util\\1.10\\f40a4624616047c86f4bc80c985426afff964975\\batik-util-1.10.jar"
+                        },
+                        {
+                            "name": "batik-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-util\\1.10\\87f316c0c3d6922ab02695d9a82db80a7ab3b7dc\\batik-util-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.34.Final\\e7bc851e6bec954fa9304b4a4cee99ced9ae7991\\netty-buffer-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.34.Final\\8afc2027eadc7848127553ebb490ea0e2b199d4e\\netty-buffer-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eclipsesource.j2v8",
+                    "name": "j2v8_win32_x86",
+                    "version": "4.6.0",
+                    "artifacts": [
+                        {
+                            "name": "j2v8_win32_x86",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86\\4.6.0\\6b3844b935145691edfb2c674371c783df0804ab\\j2v8_win32_x86-4.6.0.jar"
+                        },
+                        {
+                            "name": "j2v8_win32_x86",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_win32_x86\\4.6.0\\9a0d52d278d40ea29af831a3c96fb0b7497a8408\\j2v8_win32_x86-4.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-gvt",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-gvt",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-gvt\\1.10\\7091974abb3f57141f29aa94d2fbf8a06d22f837\\batik-gvt-1.10.jar"
+                        },
+                        {
+                            "name": "batik-gvt",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-gvt\\1.10\\7ddf15bad10839a32400121b3756b3f2c8a846b8\\batik-gvt-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.media",
+                    "name": "jersey-media-json-jackson",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-media-json-jackson",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-json-jackson\\2.29.1\\e16c6b8d486604ac55a2b5f49b20e75564e7979b\\jersey-media-json-jackson-2.29.1.jar"
+                        },
+                        {
+                            "name": "jersey-media-json-jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-json-jackson\\2.29.1\\7dfe473d489dfd03deacf0426ff409a2971db97c\\jersey-media-json-jackson-2.29.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "1.3.5",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\1.3.5\\1ad35f11d17abb52426bfe15ea7b4c583795012\\jakarta.annotation-api-1.3.5-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\1.3.5\\59eb84ee0d616332ff44aba065f3888cf002cd2d\\jakarta.annotation-api-1.3.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "xmlgraphics-commons",
+                    "version": "2.3",
+                    "artifacts": [
+                        {
+                            "name": "xmlgraphics-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\xmlgraphics-commons\\2.3\\8d9ad675fb4b506722fa5171f1a9586c7229463e\\xmlgraphics-commons-2.3-sources.jar"
+                        },
+                        {
+                            "name": "xmlgraphics-commons",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\xmlgraphics-commons\\2.3\\f0b77d80c4d8f02538512b4d505af0cf5286eb7f\\xmlgraphics-commons-2.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-script",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-script",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-script\\1.10\\76c0790c695c9cec110163aef89f1de05c5d0a96\\batik-script-1.10.jar"
+                        },
+                        {
+                            "name": "batik-script",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-script\\1.10\\199e2b68a5eaeaa656d3d8963203d04818ab4db7\\batik-script-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware",
+                    "name": "minlog",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "minlog",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\minlog\\1.3.0\\ff07b5f1b01d2f92bb00a337f9a94873712f0827\\minlog-1.3.0.jar"
+                        },
+                        {
+                            "name": "minlog",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\minlog\\1.3.0\\9ee9f7fe99d5acfcb974e28acbad9349fb33a765\\minlog-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-anim",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-anim",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-anim\\1.10\\806fbeae031125537bfbc3d21b091513950d3758\\batik-anim-1.10-sources.jar"
+                        },
+                        {
+                            "name": "batik-anim",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-anim\\1.10\\e301c476768a53a33ec473b265fbdceb45dce464\\batik-anim-1.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-dom",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-dom",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-dom\\1.10\\5f94e491f3b4653c834201dcb36fa7b2169a4af9\\batik-dom-1.10.jar"
+                        },
+                        {
+                            "name": "batik-dom",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-dom\\1.10\\2eac55be159b9412859e820f09ee6d3c706b80e2\\batik-dom-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.9.9",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.9\\4ac77aa5799fcf00a9cde00cd7da4d08bdc038ff\\jackson-annotations-2.9.9-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.9\\2ea299c145207161c212e28abbc8f513fa245940\\jackson-annotations-2.9.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.media",
+                    "name": "jersey-media-multipart",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-media-multipart",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-multipart\\2.29.1\\9f24165d556c512612de9dde69ecea6322386ec2\\jersey-media-multipart-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-media-multipart",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.media\\jersey-media-multipart\\2.29.1\\de81eade6cddbb1438273237b4e52da451df8bca\\jersey-media-multipart-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.9.9",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.9\\c8a91180aef81d62f44b27cef42bacb168871a4c\\jackson-core-2.9.9-sources.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.9.9\\bfff5af9fb8347d26bbb7959cb9b4fe9a2b0ca5e\\jackson-core-2.9.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-server",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-server",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-server\\2.29.1\\edeaa59abad953156a4ed83199780d66ce7998c0\\jersey-server-2.29.1.jar"
+                        },
+                        {
+                            "name": "jersey-server",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-server\\2.29.1\\8cac6ea0656afbe28cb31833b0463c4e4a611344\\jersey-server-2.29.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.0.4",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.0.4\\f029a2aefe2b3e1517573c580f948caac31b1056\\commons-logging-1.0.4.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.0.4\\8d3424a318e818f88568dfb3b55c58583364ba9\\commons-logging-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-svg-dom",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-svg-dom",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svg-dom\\1.10\\98b083931c3a9d3fa4b544ea927940689899eb5e\\batik-svg-dom-1.10.jar"
+                        },
+                        {
+                            "name": "batik-svg-dom",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svg-dom\\1.10\\16a55199ad002c03e50d7896766bca4328e4cec6\\batik-svg-dom-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "jacamo",
+                    "version": "1.1",
+                    "artifacts": [
+                        {
+                            "name": "jacamo",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo\\1.1\\a9a6ca813f9732690d6ecd660efbf04906283ffb\\jacamo-1.1-sources.jar"
+                        },
+                        {
+                            "name": "jacamo",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo\\1.1\\6f3a791b06578a39435448e453729d2ccba66f10\\jacamo-1.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.json",
+                    "name": "javax.json-api",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "javax.json-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.json\\javax.json-api\\1.1.4\\c8efa3cfaeee2b05c2dfd54cba21548a081b1746\\javax.json-api-1.1.4.jar"
+                        },
+                        {
+                            "name": "javax.json-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.json\\javax.json-api\\1.1.4\\eb81279e894e71bf034681c5494c60001775bb0\\javax.json-api-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jason",
+                    "name": "jason",
+                    "version": "3.1",
+                    "artifacts": [
+                        {
+                            "name": "jason",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jason\\jason\\3.1\\25502bc66182dca6a811148b348e91db1a8d426b\\jason-3.1.jar"
+                        },
+                        {
+                            "name": "jason",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jason\\jason\\3.1\\627acb2ed314addf7e16396be543de4365e6a80d\\jason-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "ST4",
+                    "version": "4.3",
+                    "artifacts": [
+                        {
+                            "name": "ST4",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\ST4\\4.3\\f5c1c1b500028db7d102067b8e0f3e15f685cbec\\ST4-4.3-sources.jar"
+                        },
+                        {
+                            "name": "ST4",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\ST4\\4.3\\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\\ST4-4.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.activation",
+                    "name": "javax.activation-api",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "javax.activation-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\85262acf3ca9816f9537ca47d5adeabaead7cb16\\javax.activation-api-1.2.0.jar"
+                        },
+                        {
+                            "name": "javax.activation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\1b4c6e77d35adab19794746d8ea753df30d77dca\\javax.activation-api-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-ext",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-ext",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-ext\\1.10\\23a27a446965644ff5593dab2003221936ca2499\\batik-ext-1.10.jar"
+                        },
+                        {
+                            "name": "batik-ext",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-ext\\1.10\\8728355ae5e9ed874712ffddcb1567dbbc4c4a0d\\batik-ext-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.inject",
+                    "name": "jersey-hk2",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-hk2",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.inject\\jersey-hk2\\2.29.1\\54b316e9f91ac9de1e6900aeb63457505862a296\\jersey-hk2-2.29.1.jar"
+                        },
+                        {
+                            "name": "jersey-hk2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.inject\\jersey-hk2\\2.29.1\\c77dd241b5cbbd1ebe49db356d81cdd89c123bf2\\jersey-hk2-2.29.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "cartago",
+                    "version": "3.1",
+                    "artifacts": [
+                        {
+                            "name": "cartago",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\cartago\\3.1\\318b737fb290f3a90956e6cc4d6193ec8df96fc7\\cartago-3.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.8.5",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.5\\c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f\\gson-2.8.5-sources.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.5\\f645ed69d595b24d4cf8b3fbb64cc505bede8829\\gson-2.8.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware",
+                    "name": "kryo",
+                    "version": "4.0.0",
+                    "artifacts": [
+                        {
+                            "name": "kryo",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\kryo\\4.0.0\\9f5c64c1315ec79bee0f56bb88e4ae94b65048ce\\kryo-4.0.0.jar"
+                        },
+                        {
+                            "name": "kryo",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.esotericsoftware\\kryo\\4.0.0\\8a2ebf62fff29eb72426887b977f07b39d719ca1\\kryo-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xml-apis",
+                    "name": "xml-apis",
+                    "version": "1.3.04",
+                    "artifacts": [
+                        {
+                            "name": "xml-apis",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xml-apis\\xml-apis\\1.3.04\\d89105ccbe3fd823865330fd964233baf2b53e88\\xml-apis-1.3.04-sources.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xml-apis\\xml-apis\\1.3.04\\90b215f48fe42776c8c7f6e3509ec54e84fd65ef\\xml-apis-1.3.04.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web-common",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\3.7.0\\d3a7ac47a80179601a0ec40ba6103766758f6e10\\vertx-web-common-3.7.0.jar"
+                        },
+                        {
+                            "name": "vertx-web-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web-common\\3.7.0\\3cf9922499d5e4a85bf26e9c4592fc098173c084\\vertx-web-common-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.gradle",
+                    "name": "gradle-tooling-api",
+                    "version": "7.4.2",
+                    "artifacts": [
+                        {
+                            "name": "gradle-tooling-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.gradle\\gradle-tooling-api\\7.4.2\\c5f7466f9e1ec49ee56080c35e1e68ae30972d9\\gradle-tooling-api-7.4.2.jar"
+                        },
+                        {
+                            "name": "gradle-tooling-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.gradle\\gradle-tooling-api\\7.4.2\\64bee07bda6d4b61719390da55ab5266ce701e48\\gradle-tooling-api-7.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-parser",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-parser",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-parser\\1.10\\25648288c0c0d3b7f8962ffb187a71095928ebfc\\batik-parser-1.10-sources.jar"
+                        },
+                        {
+                            "name": "batik-parser",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-parser\\1.10\\afe740ee774eb7f94a3f9ae056724dff0d84d7e1\\batik-parser-1.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-client",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-client\\2.29.1\\bc355da5d74b83a918a65e193f8e1d3615fec83b\\jersey-client-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-client",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.core\\jersey-client\\2.29.1\\1635f245b7e9eecf8d3d753fba87f3b79aef1b34\\jersey-client-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.ext",
+                    "name": "jersey-entity-filtering",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-entity-filtering",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.ext\\jersey-entity-filtering\\2.29.1\\e68a310e03fcd97f245854e7f59b2e9668c5c146\\jersey-entity-filtering-2.29.1.jar"
+                        },
+                        {
+                            "name": "jersey-entity-filtering",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.ext\\jersey-entity-filtering\\2.29.1\\8aeb09265f92e1b6ebd522bc1a18ec76e6af6eef\\jersey-entity-filtering-2.29.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-core",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "vertx-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\3.7.1\\1530667b02c1b7edf0e495dbf5df0c00a591950d\\vertx-core-3.7.1.jar"
+                        },
+                        {
+                            "name": "vertx-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-core\\3.7.1\\f404853490c34015cec9731da01911c453f8058d\\vertx-core-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.34.Final\\2dffa21967d36cae446b6905bd5fb39750fcba43\\netty-common-4.1.34.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.34.Final\\96c7da2a7cbe1e2b22ee9af2c5cde4e20e838e7\\netty-common-4.1.34.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "2.2",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\2.2\\6b6018a6a56db58a29b9ce20837b829a6bad016b\\objenesis-2.2-sources.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\2.2\\3fb533efdaa50a768c394aa4624144cf8df17845\\objenesis-2.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-xml",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-xml",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-xml\\1.10\\601a184d2e363e0900eeec3617e62a3162a6fe37\\batik-xml-1.10.jar"
+                        },
+                        {
+                            "name": "batik-xml",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-xml\\1.10\\c74f33e0efebf907e520059ebac2ae2d5692b7e1\\batik-xml-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.grizzly",
+                    "name": "grizzly-http-server",
+                    "version": "2.4.4",
+                    "artifacts": [
+                        {
+                            "name": "grizzly-http-server",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http-server\\2.4.4\\289ed9b73dbc3bb09a3a18ce5a9c99e340676d71\\grizzly-http-server-2.4.4-sources.jar"
+                        },
+                        {
+                            "name": "grizzly-http-server",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http-server\\2.4.4\\f9a62c711eb51f351cc5ba48faf44d5a49faa0a7\\grizzly-http-server-2.4.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.ant",
+                    "name": "ant",
+                    "version": "1.10.5",
+                    "artifacts": [
+                        {
+                            "name": "ant",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant\\1.10.5\\633d7a3e3eccca94ed390e08a6811f97ca6f004c\\ant-1.10.5-sources.jar"
+                        },
+                        {
+                            "name": "ant",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant\\1.10.5\\4a48332c2df6f535d9dd9d904cd780ab26266e20\\ant-1.10.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.containers",
+                    "name": "jersey-container-servlet-core",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-container-servlet-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet-core\\2.29.1\\c64aca16005fc308ffa82b5df3c7b82b3863da9d\\jersey-container-servlet-core-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet-core\\2.29.1\\374a2d5702b46d0c14c6e1ecfa1486d5d76bc947\\jersey-container-servlet-core-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.containers",
+                    "name": "jersey-container-grizzly2-http",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-container-grizzly2-http",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-grizzly2-http\\2.29.1\\5b70b50891d48f6ee3dcf77d15f729ec900ab035\\jersey-container-grizzly2-http-2.29.1.jar"
+                        },
+                        {
+                            "name": "jersey-container-grizzly2-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-grizzly2-http\\2.29.1\\ac8e38c0e688d1b16a03b9e05a718dfed7b49b92\\jersey-container-grizzly2-http-2.29.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-web",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-web",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\3.7.0\\cd8335ec1ca7b032631f0c2dfe571fb941ff38ed\\vertx-web-3.7.0.jar"
+                        },
+                        {
+                            "name": "vertx-web",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-web\\3.7.0\\11aa113dc202da9b8b18711b0f81acc3b8778a49\\vertx-web-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.abego.treelayout",
+                    "name": "org.abego.treelayout.core",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "org.abego.treelayout.core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.abego.treelayout\\org.abego.treelayout.core\\1.0.3\\457216e8e6578099ae63667bb1e4439235892028\\org.abego.treelayout.core-1.0.3.jar"
+                        },
+                        {
+                            "name": "org.abego.treelayout.core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.abego.treelayout\\org.abego.treelayout.core\\1.0.3\\98d31576a54fd48dabf1fcf67a311dd9f0e4f66e\\org.abego.treelayout.core-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.xml.bind",
+                    "name": "jaxb-core",
+                    "version": "2.3.0.1",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-core",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-core\\2.3.0.1\\23574ca124d0a694721ce3ef13cd720095f18fdd\\jaxb-core-2.3.0.1.jar"
+                        },
+                        {
+                            "name": "jaxb-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-core\\2.3.0.1\\7caea34258154d7264652b8f049409634819d663\\jaxb-core-2.3.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-constants",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-constants",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-constants\\1.10\\53079777c80f005c10cc4837e9d3c90ad890f1a1\\batik-constants-1.10.jar"
+                        },
+                        {
+                            "name": "batik-constants",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-constants\\1.10\\a2325998f61600f6d3ea366f11d5ec364951dcc5\\batik-constants-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.34.Final\\abcd0e6e3a8e4477a1a7d3843e84cb46b7730bf6\\netty-resolver-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.34.Final\\528789e98eef519960a56e44569ecb2260782fd7\\netty-resolver-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eclipsesource.j2v8",
+                    "name": "j2v8_macosx_x86_64",
+                    "version": "4.6.0",
+                    "artifacts": [
+                        {
+                            "name": "j2v8_macosx_x86_64",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_macosx_x86_64\\4.6.0\\863d30016246f6d7356c88eaf36c3e924a2ffd3c\\j2v8_macosx_x86_64-4.6.0.jar"
+                        },
+                        {
+                            "name": "j2v8_macosx_x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_macosx_x86_64\\4.6.0\\70fa3b2e113fb13a4515a981b857a4a6575aeb22\\j2v8_macosx_x86_64-4.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "de.javakaffee",
+                    "name": "kryo-serializers",
+                    "version": "0.42",
+                    "artifacts": [
+                        {
+                            "name": "kryo-serializers",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\de.javakaffee\\kryo-serializers\\0.42\\2f541b01c7a67f688ab6fde619cd66ce1c2cde56\\kryo-serializers-0.42.jar"
+                        },
+                        {
+                            "name": "kryo-serializers",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\de.javakaffee\\kryo-serializers\\0.42\\a0f06560d2543261db09fd6688fea4d8bc1ace3f\\kryo-serializers-0.42-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.34.Final\\96169098bebda3d1432f5421c338958063b3da52\\netty-handler-4.1.34.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.34.Final\\dd6b87b73f3f6b22b734434a555778ee3ef99eb9\\netty-handler-4.1.34.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.validation",
+                    "name": "jakarta.validation-api",
+                    "version": "2.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.validation\\jakarta.validation-api\\2.0.2\\ef429a7f3bc2d2d1784a1135668a857a6aaedf31\\jakarta.validation-api-2.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.validation\\jakarta.validation-api\\2.0.2\\5eacc6522521f7eacb081f95cee1e231648461e7\\jakarta.validation-api-2.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eclipsesource.j2v8",
+                    "name": "j2v8_linux_x86_64",
+                    "version": "4.6.0",
+                    "artifacts": [
+                        {
+                            "name": "j2v8_linux_x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_linux_x86_64\\4.6.0\\e0168e46bfc13715d1b7b46504a8462754ed2f07\\j2v8_linux_x86_64-4.6.0-sources.jar"
+                        },
+                        {
+                            "name": "j2v8_linux_x86_64",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.eclipsesource.j2v8\\j2v8_linux_x86_64\\4.6.0\\e9714fbde87cf371071f6533824564e7499435fa\\j2v8_linux_x86_64-4.6.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-nop",
+                    "version": "1.7.30",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-nop",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-nop\\1.7.30\\55d4c73dd343efebd236abfeb367c9ef41d55063\\slf4j-nop-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-nop",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-nop\\1.7.30\\a166ecad84482080b7f9b51692b2f84142117e8a\\slf4j-nop-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-svggen",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-svggen",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svggen\\1.10\\9db528b5e5b7758163278a7d89451c088ebe8373\\batik-svggen-1.10-sources.jar"
+                        },
+                        {
+                            "name": "batik-svggen",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svggen\\1.10\\1657ee1418304ade24a213e028d89a18e9dec13b\\batik-svggen-1.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-bridge-common",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-bridge-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\3.7.0\\d442fe9a8a4e57231aeca421213359b14c9ef4a0\\vertx-bridge-common-3.7.0-sources.jar"
+                        },
+                        {
+                            "name": "vertx-bridge-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-bridge-common\\3.7.0\\36ff7bf7800e14de787fee5b13c36628ddc1716e\\vertx-bridge-common-3.7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.containers",
+                    "name": "jersey-container-servlet",
+                    "version": "2.29.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-container-servlet",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet\\2.29.1\\dcf92310b10f0f2761fe0419f863a41744715292\\jersey-container-servlet-2.29.1-sources.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jersey.containers\\jersey-container-servlet\\2.29.1\\e04bec5a21eb88f098b6eb90d418df43d21bab15\\jersey-container-servlet-2.29.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.6",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-io\\commons-io\\2.6\\2566800dc841d9d2c5a0d34d807e45d4107dbbdf\\commons-io-2.6-sources.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\commons-io\\commons-io\\2.6\\815893df5f31da2ece4040fe0a12fd44b577afaf\\commons-io-2.6.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-locator",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-locator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-locator\\2.6.1\\73883e1a0effc4d1409743b515030a634f7b45c3\\hk2-locator-2.6.1-sources.jar"
+                        },
+                        {
+                            "name": "hk2-locator",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\hk2-locator\\2.6.1\\9dedf9d2022e38ec0743ed44c1ac94ad6149acdd\\hk2-locator-2.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-svgrasterizer",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-svgrasterizer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svgrasterizer\\1.10\\e90d56504dc9dbc6cb648eb3d7add9763a13bcba\\batik-svgrasterizer-1.10-sources.jar"
+                        },
+                        {
+                            "name": "batik-svgrasterizer",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-svgrasterizer\\1.10\\df63334c6f242d77a67ebd5c140bc8c4f2b37126\\batik-svgrasterizer-1.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\3.0.2\\b19b5927c2c25b6c70f093767041e641ae0b1b35\\jsr305-3.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\3.0.2\\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\\jsr305-3.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "serializer",
+                    "version": "2.7.2",
+                    "artifacts": [
+                        {
+                            "name": "serializer",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\serializer\\2.7.2\\24247f3bb052ee068971393bdb83e04512bb1c3c\\serializer-2.7.2.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\serializer\\2.7.2\\fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a\\serializer-2.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "npl",
+                    "version": "0.5",
+                    "artifacts": [
+                        {
+                            "name": "npl",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\npl\\0.5\\9373d74b0c189abfea67df44cd5f4202976344b3\\npl-0.5-sources.jar"
+                        },
+                        {
+                            "name": "npl",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\npl\\0.5\\f2aa18d72760bbc4963f47feddc7456e99a01cf3\\npl-0.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.ingenias",
+                    "name": "jade",
+                    "version": "4.3",
+                    "artifacts": [
+                        {
+                            "name": "jade",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.ingenias\\jade\\4.3\\2cf02ba26058230c72da969100a3c2e2e7f06628\\jade-4.3.jar"
+                        },
+                        {
+                            "name": "jade",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.ingenias\\jade\\4.3\\5bcf99e05d16da9a885533d3a24fd74e10f1696d\\jade-4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.34.Final\\382b688e27a1b94783829698f2964ac24c4cbc2d\\netty-codec-socks-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-socks\\4.1.34.Final\\345a10b91e4876cb6ec642a3c010ca187f361fa0\\netty-codec-socks-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "osgi-resource-locator",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "osgi-resource-locator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\osgi-resource-locator\\1.0.3\\2f01d4501f52f63016fe70f7aea79c19cccb8d44\\osgi-resource-locator-1.0.3-sources.jar"
+                        },
+                        {
+                            "name": "osgi-resource-locator",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2\\osgi-resource-locator\\1.0.3\\de3b21279df7e755e38275137539be5e2c80dd58\\osgi-resource-locator-1.0.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\71a1fdefa224da50f1db6306ce609981e20186c9\\slf4j-api-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\\slf4j-api-1.7.30.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.xml.bind",
+                    "name": "jaxb-impl",
+                    "version": "2.3.1",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-impl",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-impl\\2.3.1\\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\\jaxb-impl-2.3.1.jar"
+                        },
+                        {
+                            "name": "jaxb-impl",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-impl\\2.3.1\\812be404181e93a2aff3b645fcb9544b4956ed4b\\jaxb-impl-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.grizzly",
+                    "name": "grizzly-http",
+                    "version": "2.4.4",
+                    "artifacts": [
+                        {
+                            "name": "grizzly-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http\\2.4.4\\cd7921124be251b16a0106c3e273057b05dd05d2\\grizzly-http-2.4.4-sources.jar"
+                        },
+                        {
+                            "name": "grizzly-http",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.grizzly\\grizzly-http\\2.4.4\\c789d449906458d4174126f6a4fefdd7a6008777\\grizzly-http-2.4.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "intmas",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "intmas",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\intmas\\1.0.0\\d2a9bff5c612157b1b9a4270c632d3e2a67e7fbb\\intmas-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "xalan",
+                    "version": "2.7.2",
+                    "artifacts": [
+                        {
+                            "name": "xalan",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\xalan\\2.7.2\\d55d3f02a56ec4c25695fe67e1334ff8c2ecea23\\xalan-2.7.2.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\xalan\\xalan\\2.7.2\\fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a\\xalan-2.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.9.0",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.0\\a0ad4e203304ccab7e01266fa814115850edb8a9\\jackson-annotations-2.9.0-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.9.0\\7c10d545325e3a6e72e06381afe469fd40eb701\\jackson-annotations-2.9.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "1.7.25",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\1.7.25\\af5364cd6679bfffb114f0dec8a157aaa283b76\\jul-to-slf4j-1.7.25.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\1.7.25\\bcea1530927f59b5128841d3571f879ce3af2e86\\jul-to-slf4j-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish",
+                    "name": "javax.json",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "javax.json",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish\\javax.json\\1.1.4\\943f240a509d3c70b448a55c6735591ecbd37c88\\javax.json-1.1.4.jar"
+                        },
+                        {
+                            "name": "javax.json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish\\javax.json\\1.1.4\\c8718c73685d7d4915905c14ef650c7ca4f5d97e\\javax.json-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-transcoder",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-transcoder",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-transcoder\\1.10\\66d3c8025f50c77834ff4bb09055278fe95070fa\\batik-transcoder-1.10.jar"
+                        },
+                        {
+                            "name": "batik-transcoder",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-transcoder\\1.10\\24ef8e38cac9a9cd6bafc43b2e772c052712a7c4\\batik-transcoder-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "jakarta.inject",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\jakarta.inject\\2.6.1\\74132e0252fda12812a851695e488d3a862e09de\\jakarta.inject-2.6.1-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.inject",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.hk2.external\\jakarta.inject\\2.6.1\\8096ebf722902e75fbd4f532a751e514f02e1eb7\\jakarta.inject-2.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "jaca",
+                    "version": "3.1",
+                    "artifacts": [
+                        {
+                            "name": "jaca",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jaca\\3.1\\e06cf4b16ef59846e6ee8690af4a69116a1d3a8\\jaca-3.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.34.Final\\42b5a57a4bb895f4489a724cdc9e454bc5afe108\\netty-handler-proxy-4.1.34.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler-proxy\\4.1.34.Final\\25a252380dd7053b0b9c58861c4908a546b2972f\\netty-handler-proxy-4.1.34.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-bridge",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-bridge",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-bridge\\1.10\\a2f70bfbfcc3cf756402487c25fe49bb17fb3b44\\batik-bridge-1.10-sources.jar"
+                        },
+                        {
+                            "name": "batik-bridge",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-bridge\\1.10\\53cdf9504d1eefe0ee3bcf616a882d5a2b93ffd4\\batik-bridge-1.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.22.0-CR2",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.22.0-CR2\\4f13d1396cfd22872c98f57fb9c0a7a74febbb05\\javassist-3.22.0-CR2-sources.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.22.0-CR2\\44eaf0990dea92f4bca4b9931b2239c0e8756ee7\\javassist-3.22.0-CR2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-rasterizer",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-rasterizer",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-rasterizer\\1.10\\21784e4d91d22a6dbec11ae3d6867e316a3d4276\\batik-rasterizer-1.10.jar"
+                        },
+                        {
+                            "name": "batik-rasterizer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-rasterizer\\1.10\\9f9853b9efbd07d34ca97c9a8aaec7752629bbf2\\batik-rasterizer-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4",
+                    "version": "4.8",
+                    "artifacts": [
+                        {
+                            "name": "antlr4",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4\\4.8\\c5902f3079595a5e73dd6b008340a8197ee1aeda\\antlr4-4.8.jar"
+                        },
+                        {
+                            "name": "antlr4",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4\\4.8\\4b41d347e47ec0ff391c5b9df419d1a2d59ece5d\\antlr4-4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jacamo",
+                    "name": "jacamo-rest",
+                    "version": "0.7",
+                    "artifacts": [
+                        {
+                            "name": "jacamo-rest",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo-rest\\0.7\\48327b330a702b9502fc1eebf07f9a5d5ef3e768\\jacamo-rest-0.7.jar"
+                        },
+                        {
+                            "name": "jacamo-rest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jacamo\\jacamo-rest\\0.7\\8486d99f0d0d333d4980cb3f39a5d224ac0bfcc6\\jacamo-rest-0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.ant",
+                    "name": "ant-launcher",
+                    "version": "1.10.5",
+                    "artifacts": [
+                        {
+                            "name": "ant-launcher",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant-launcher\\1.10.5\\e84c8cf7b0cbac5ef101cf56ff8d439fa77e36c2\\ant-launcher-1.10.5.jar"
+                        },
+                        {
+                            "name": "ant-launcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.ant\\ant-launcher\\1.10.5\\24f352f6f2e37deb23802cab6a1dd857fb77625c\\ant-launcher-1.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.vertx",
+                    "name": "vertx-auth-common",
+                    "version": "3.7.0",
+                    "artifacts": [
+                        {
+                            "name": "vertx-auth-common",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\3.7.0\\76c12caa061867f04a4521597a66a04e290d2815\\vertx-auth-common-3.7.0.jar"
+                        },
+                        {
+                            "name": "vertx-auth-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.vertx\\vertx-auth-common\\3.7.0\\31bdaba652f4a435329383072681d846a739486d\\vertx-auth-common-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jvnet.mimepull",
+                    "name": "mimepull",
+                    "version": "1.9.11",
+                    "artifacts": [
+                        {
+                            "name": "mimepull",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.mimepull\\mimepull\\1.9.11\\848143ca80c64ea9545744df880c5eb2fc7dfbc9\\mimepull-1.9.11-sources.jar"
+                        },
+                        {
+                            "name": "mimepull",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.mimepull\\mimepull\\1.9.11\\d1cd7921d4c6c77938cefbb16d4f646c74278718\\mimepull-1.9.11.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-awt-util",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-awt-util",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-awt-util\\1.10\\32712076ffee3eb533bc32f45f5c4b3f25b82749\\batik-awt-util-1.10.jar"
+                        },
+                        {
+                            "name": "batik-awt-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-awt-util\\1.10\\3c536f5b8584f271a98d7b3baccd3023c06ac943\\batik-awt-util-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.9.8",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.8\\f66792d499a6fea6c7a743558f940e0ebf775ce3\\jackson-databind-2.9.8-sources.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.9.8\\11283f21cc480aa86c4df7a0a3243ec508372ed2\\jackson-databind-2.9.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.34.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.34.Final\\7a3bdf00588d853a0187f6072e447c3441f99c3a\\netty-codec-http2-4.1.34.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec-http2\\4.1.34.Final\\66268942ed80beadaf6802e2fcf8983eef4fb7ec\\netty-codec-http2-4.1.34.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.8",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.8\\94c809b4b29795252d3fcc286a444c98baf05da4\\antlr4-runtime-4.8-sources.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.8\\7fe453b678b71c87c6677cef26f6b0cd96b26586\\antlr4-runtime-4.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "20.0",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\20.0\\89507701249388e1ed5ddcf8c41f4ce1be7831ef\\guava-20.0.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\20.0\\9c8493c7991464839b612d7547d6c263adf08f75\\guava-20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "batik-i18n",
+                    "version": "1.10",
+                    "artifacts": [
+                        {
+                            "name": "batik-i18n",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-i18n\\1.10\\14923525d8c01b3cbfa9d340c0d2bf315a85b3f0\\batik-i18n-1.10.jar"
+                        },
+                        {
+                            "name": "batik-i18n",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\benve\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.xmlgraphics\\batik-i18n\\1.10\\1c4bf7945bf5d1f03aaa8788c89bf4dbbb2cdc20\\batik-i18n-1.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
