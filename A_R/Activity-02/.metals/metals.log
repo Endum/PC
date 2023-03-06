@@ -26,3 +26,278 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.02.13 12:05:18 INFO  2 actionable tasks: 2 executed
 2023.02.13 12:05:18 INFO  time: ran 'gradle bloopInstall' in 7.74s
 2023.02.13 12:05:18 INFO  Attempting to connect to the build server...
+2023.02.13 12:05:18 INFO  Bloop uses C:\Program Files (x86)\Java\jre1.8.0_341 defined at C:\Users\benve\.bloop\bloop.json
+2023.02.13 12:05:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\bsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.13 12:05:18 INFO  time: Connected to build server in 0.22s
+2023.02.13 12:05:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.13 12:05:19 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.13 12:05:19 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.13 12:05:19 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.13 12:05:19 INFO  time: indexed workspace in 1.09s
+2023.02.13 12:05:20 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:05:20 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:05:20 WARN  javac exited with exit code 1
+2023.02.13 12:05:20 INFO  time: compiled Activity-02 in 0.54s
+2023.02.13 12:08:01 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:08:01 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:08:01 WARN  javac exited with exit code 1
+2023.02.13 12:08:01 INFO  time: compiled Activity-02 in 0.78s
+2023.02.13 12:25:33 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:25:33 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:25:33 WARN  javac exited with exit code 1
+2023.02.13 12:25:33 INFO  time: compiled Activity-02 in 0.81s
+2023.02.13 12:25:37 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:25:37 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:25:37 WARN  javac exited with exit code 1
+2023.02.13 12:25:37 INFO  time: compiled Activity-02 in 0.74s
+2023.02.13 12:32:18 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:32:18 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:32:18 WARN  javac exited with exit code 1
+2023.02.13 12:32:18 INFO  time: compiled Activity-02 in 0.68s
+2023.02.13 12:33:33 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:33:34 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:33:34 WARN  javac exited with exit code 1
+2023.02.13 12:33:34 INFO  time: compiled Activity-02 in 1.09s
+2023.02.13 12:35:38 INFO  compiling activity-02 (47 java sources)
+2023.02.13 12:35:38 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 12:35:38 WARN  javac exited with exit code 1
+2023.02.13 12:35:38 INFO  time: compiled Activity-02 in 0.76s
+2023.02.13 13:01:35 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:01:35 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:01:35 WARN  javac exited with exit code 1
+2023.02.13 13:01:35 INFO  time: compiled Activity-02 in 0.72s
+2023.02.13 13:01:45 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:01:45 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:01:45 WARN  javac exited with exit code 1
+2023.02.13 13:01:45 INFO  time: compiled Activity-02 in 0.83s
+2023.02.13 13:31:22 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:31:22 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:31:22 WARN  javac exited with exit code 1
+2023.02.13 13:31:22 INFO  time: compiled Activity-02 in 0.76s
+2023.02.13 13:34:06 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:34:06 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:34:06 WARN  javac exited with exit code 1
+2023.02.13 13:34:06 INFO  time: compiled Activity-02 in 0.78s
+2023.02.13 13:36:37 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:36:37 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:36:37 WARN  javac exited with exit code 1
+2023.02.13 13:36:37 INFO  time: compiled Activity-02 in 0.83s
+2023.02.13 13:36:42 INFO  compiling activity-02 (47 java sources)
+2023.02.13 13:36:42 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.13 13:36:42 WARN  javac exited with exit code 1
+2023.02.13 13:36:42 INFO  time: compiled Activity-02 in 0.71s
+2023.02.14 12:16:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\lsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.14 12:16:18 INFO  logging to file C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\metals.log
+2023.02.14 12:16:18 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\benve\Desktop\git\PC\A_R\Activity-02' for client Visual Studio Code 1.75.1.
+2023.02.14 12:16:18 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files (x86)\Java\jre1.8.0_341, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/benve/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.14 12:16:25 INFO  time: initialize in 7.95s
+2023.02.14 12:16:27 INFO  Attempting to connect to the build server...
+2023.02.14 12:16:27 INFO  Bloop uses C:\Program Files (x86)\Java\jre1.8.0_341 defined at C:\Users\benve\.bloop\bloop.json
+2023.02.14 12:16:27 INFO  skipping build import with status 'Installed'
+2023.02.14 12:16:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\bsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.14 12:16:29 INFO  time: Connected to build server in 1.8s
+2023.02.14 12:16:29 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.14 12:16:29 INFO  time: Imported build in 0.23s
+2023.02.14 12:16:30 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.14 12:16:30 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.14 12:16:30 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.14 12:16:30 INFO  time: indexed workspace in 1.92s
+2023.02.14 12:16:31 INFO  compiling activity-02 (47 java sources)
+2023.02.14 12:16:31 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.14 12:16:31 WARN  javac exited with exit code 1
+2023.02.14 12:16:31 INFO  time: compiled Activity-02 in 0.73s
+2023.02.14 12:16:34 INFO  compiling activity-02 (47 java sources)
+2023.02.14 12:16:34 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.14 12:16:34 WARN  javac exited with exit code 1
+2023.02.14 12:16:34 INFO  time: compiled Activity-02 in 0.5s
+2023.02.14 14:11:38 INFO  shutting down Metals
+2023.02.14 14:11:38 INFO  Shut down connection with build server.
+2023.02.20 09:47:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\lsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.20 09:47:29 INFO  logging to file C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\metals.log
+2023.02.20 09:47:29 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\benve\Desktop\git\PC\A_R\Activity-02' for client Visual Studio Code 1.75.1.
+2023.02.20 09:47:29 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files (x86)\Java\jre1.8.0_341, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/benve/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.20 09:47:32 INFO  time: initialize in 3.19s
+2023.02.20 09:47:33 INFO  Attempting to connect to the build server...
+2023.02.20 09:47:33 INFO  Bloop uses C:\Program Files (x86)\Java\jre1.8.0_341 defined at C:\Users\benve\.bloop\bloop.json
+2023.02.20 09:47:33 INFO  skipping build import with status 'Installed'
+2023.02.20 09:47:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\bsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.20 09:47:57 INFO  time: Connected to build server in 23s
+2023.02.20 09:47:57 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.20 09:47:57 INFO  time: Imported build in 0.57s
+2023.02.20 09:47:59 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.20 09:47:59 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.20 09:47:59 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\src.zip, C:\Program Files (x86)\Java\jre1.8.0_341\lib\src.zip. Java symbols will not be available.
+2023.02.20 09:47:59 INFO  time: indexed workspace in 2.6s
+2023.02.20 09:48:03 INFO  compiling activity-02 (47 java sources)
+2023.02.20 09:48:04 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.20 09:48:04 WARN  javac exited with exit code 1
+2023.02.20 09:48:04 INFO  time: compiled Activity-02 in 1.53s
+2023.02.20 09:48:07 INFO  compiling activity-02 (47 java sources)
+2023.02.20 09:48:08 WARN  Unexpected javac output: warning: [options] bootstrap class path not set in conjunction with -source 8
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x67205a84) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x67205a84
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50).
+2023.02.20 09:48:08 WARN  javac exited with exit code 1
+2023.02.20 09:48:08 INFO  time: compiled Activity-02 in 1.12s
+2023.02.20 10:55:43 INFO  shutting down Metals
+2023.02.20 10:55:43 INFO  Shut down connection with build server.
+2023.02.25 09:19:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\lsp.trace.json or C:\Users\benve\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.25 09:19:45 INFO  logging to file C:\Users\benve\Desktop\git\PC\A_R\Activity-02\.metals\metals.log
+2023.02.25 09:19:45 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\benve\Desktop\git\PC\A_R\Activity-02' for client Visual Studio Code 1.75.1.
+2023.02.25 09:19:45 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files (x86)\Java\jre1.8.0_341, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/benve/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.25 09:19:47 INFO  time: initialize in 2.14s
+2023.02.25 09:19:49 INFO  Attempting to connect to the build server...
+2023.02.25 09:19:49 INFO  Bloop uses C:\Program Files (x86)\Java\jre1.8.0_341 defined at C:\Users\benve\.bloop\bloop.json
+2023.02.25 09:19:49 INFO  skipping build import with status 'Installed'
+2023.02.25 09:20:02 INFO  shutting down Metals
